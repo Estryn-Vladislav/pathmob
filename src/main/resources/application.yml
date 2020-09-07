@@ -1,0 +1,16 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: "jdbc:postgresql://localhost:5432/pathmob"
+    username: postgres
+    password: postgres
+
+  freemarker:
+    expose-request-attributes: true
+
+  flyway:
+    enabled: true
